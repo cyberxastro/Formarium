@@ -12,6 +12,7 @@ function Layout({ children }: { children: ReactNode }) {
         </div>
       </nav>
       <main className="flex w-full flex-grow h-full items-center justify-center">{children}</main>
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8c54693056a74296ab76fd935dc2891b"}'></script>
     </div>
   );
 }
